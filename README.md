@@ -29,6 +29,6 @@ If you want more real-time communication, you can visit our community on [Slack]
 
 https://fonts.google.com/specimen/Work+Sans
 
-### Link
+### Link for the App
 
 https://watcher616.github.io/Newsletter-Popup
