@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+    background-image: url("./Assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.newsletter-container{
+    width: 30em;
+    height: 40em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 3em;
+    color: #ffffff;
+    background: #0560f7;
+    height: 10em;
+}
+.title{
+    width: 12em;
+    font-weight: 600;
+    margin: 0;
+}
+.header-pattern{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.description{
+    text-align: center;
+    padding: 0 1.5em 0 1.5em;
+    color: #535963;
+    margin-bottom: 1.5em;
+    padding-top:1.5em;
+}
+.content{
+    background-color: #ffffff;
+    height: 100%;
+}
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+input[type= "email"]{
+    width: 20em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    outline: none;
+}
+input[type="submit"] {
+    width: 10em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background: #0560f7;
+    margin-bottom: 1.5em;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: inherit;
+    transition: background-color 0.3s ease; 
+}
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+
+p{
+    margin: 0;
+    color: #535963;
+}
+.warning{
+    color: #babcbf;
+    margin-left: 1.5rem;
+}
+.user-container{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+.name{
+    font-weight: 600;
+}
+.comment-section{
+    padding: 0 1em 0 1em;
+    text-align: center;
+}
+ 
+@media screen and (max-width: 576px) {
+   
+    .newsletter-container {
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .content{
+        padding: 0 .7em 0 .7em;
+    }
+   
+   
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Pop Up</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="newsletter-container">
+    <div class="header">
+        <h2 class="title">Creating Email templates has never been easier.</h2>
+        <img class="header-pattern" src="./Assets/Pattern.png" alt="Background">
+    </div>
+    <div class="content">
+        <p class="description">Receive daily emails on how to best create email templates, completely free.</p>
+        <form action="#" method="post">
+            <input type="email" name="email" id="email" placeholder="Email Address">
+            <input type="submit" onclick="preventDefault(event)" value="Subscribe">
+        </form>
+        <p class="warning">No spam,ever. Unsubscribe anytime.</p>
+        <div class="user-container">
+            <img src="./Assets/User Avatar.svg" alt="profile" class="user-profile">
+            <div class="user-desc">
+                <p class="name">Arexon Mortel</p>
+                <p class="job">Software Developer</p>
+            </div>
+        </div>
+         <p class="comment-section">"By far one of the best newsletter I have ever subscribed to. It is sent Biweekly and I'm always looking forward to their emails"</p>
+    </div>
+   </div>
+
+   <script>
+    function preventDefault(e){
+        e.preventDefault();
+    }
+   </script>
+</body>
+</html>
