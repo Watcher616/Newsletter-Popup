@@ -31,4 +31,4 @@ https://fonts.google.com/specimen/Work+Sans
 
 ### Link
 
-https://watcher616.github.io/Newsletter-Popup-/
+https://watcher616.github.io/Newsletter-Popup
